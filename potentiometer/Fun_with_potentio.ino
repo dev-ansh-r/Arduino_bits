@@ -1,14 +1,17 @@
 int myPin=A2;
 int redLED=7;
 int yellowLED=8;
-int redLED=9;
+int greenLED=9;
 int readVal;
-float v2;
+float V2;
 delaytime = 750;
+
 void setup() {
   Serial.begin(9600);
   pinMode(myPin,INPUT);
-  pinMode(ledPin,9);
+  pinMode(redLED,7);
+  pinMode(yellowLED,8);
+  pinMode(redLED,9);
 }
 
 void loop() {
