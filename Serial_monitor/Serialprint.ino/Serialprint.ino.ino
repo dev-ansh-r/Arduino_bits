@@ -1,7 +1,7 @@
 //Assigning values to variables
 
 float radius=1; 
-int delayTime = 500;
+int delayTime = 750;
 float area;
 String String1="Area of the circle with radius ";
 float pi=3.14;
