@@ -1,4 +1,4 @@
-// Buzzer turns on when the number is greater than 10
+// Active Buzzer turns on when the number is greater than 10
 // input number from Serial.read()
 
 int mynumb;
