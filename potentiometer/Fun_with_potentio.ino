@@ -15,7 +15,7 @@ void setup() {
 }
 
 void loop() {
-  readVal = analogRead(A2);
+  readVal = analogRead(myPin);
   V2=(5./1023.)*readVal;
   Serial.print("Potentiometer Voltage is ");
   Serial.println(V2);
