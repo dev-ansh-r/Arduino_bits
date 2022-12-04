@@ -2,6 +2,7 @@ int lightpin=A0;
 int lightval;
 int buzzPin=8;
 float wT;
+
 void setup() {
   // put your setup code here, to run once:
   pinMode(lightpin,INPUT);

@@ -1,6 +1,6 @@
 #include<Servo.h>
 int servoPin=9;
-int servoPos=0;
+int servoPos=0;  //angle
 int wT=250;
 
 Servo myservo;
