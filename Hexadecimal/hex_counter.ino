@@ -1,4 +1,5 @@
 byte mybyte=0x0;
+//byte 
 int wT=500;
 
 void setup(){
